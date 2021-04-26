@@ -1,0 +1,113 @@
+/* 
+  Localizable.strings
+  Created by YPY Global
+  Copyright © 2019 YPY Global. All rights reserved.
+*/
+
+"app_name" = "IPTV Pro";
+"title_copyright" = "©IPTV Pro";
+"title_home_screen" = "IPTV Pro";
+"title_unknown" = "Unknown";
+
+"title_tab_home" = "Home";
+"title_tab_bundles" = "Bundles";
+"title_tab_favorite" = "Favorites";
+
+"title_privacy_policy" = "Privacy policy";
+"title_term_of_use" = "Term of use";
+"title_rate_us" = "Rate us now";
+"title_visit_website" = "Visit website";
+"title_tell_a_friend" = "Tell a friend";
+"title_contact_us" = "Contact us";
+
+"title_information" = "Information";
+"title_no_fav_data" = "No Video In Favorite";
+"title_no_data" = "No Data";
+//format
+"format_share_app" = "Let start with %@";
+"format_version" = "Version: %@";
+
+"info_add_bundle" = "Click + on the top-right corner to add bundle.";
+"title_add_bundle" = "Add Bundle";
+"title_add" = "Add";
+"info_header_add_bundle" = "Please input the following fields";
+"info_hint_bundle_name" = "Bundle name (Optional)";
+"info_hint_bundle_uri" = "Enter url (for example: http://xxx/xxx.m3u)";
+"format_empty_field" = "%@ can not be empty";
+"title_bundle" = "Bundle";
+"title_bundle_url" = "Bundle Url";
+"info_invalid_url" = "Invalid url. Please check again";
+"info_invalid_url_m3u" = "Invalid url format. We just support the .m3u link";
+"info_save_url_success" = "Saved bundle successfully";
+"info_save_url_error" = "Saved bundle error";
+"info_no_bundle" = "No Bundle";
+"title_options" = "Options";
+"title_share_bundle" = "Share bundle";
+"title_delete_bundle" = "Delete bundle";
+"title_delete" = "Delete";
+"info_confirm_delete_bundle" = "Are you sure to delete this bundle?";
+"info_delete_successfully" = "Deleted successfully";
+
+"info_lose_internet" = "Network disconnect. Please check your internet settings.";
+"info_server_error" = "We can not connect to server now. Please try again later";
+"title_setting" = "Setting";
+"title_cancel" = "Cancel";
+"title_done" = "Done";
+"title_search" = "Search";
+
+"info_loading" = "Please wait ...";
+"info_error_data" = "We can not process your data. Please check again";
+
+"title_search_video" = "Search Video";
+"info_play_video_error" = "We can not play this video. Please try again later";
+"title_no_video" = "No Video Found";
+"title_not_found" = "Not Found";
+"title_confirm" = "Confirm";
+"info_bundle_existed" = "Your bundle has been existed!";
+"title_featured_movies" = "Featured Movies";
+"title_newest_movies" = "Newest Movies";
+"title_movies" = "Movies";
+"title_trending_series" = "Trending Series";
+"title_genres" = "Genres";
+"title_view_more" = "View More";
+"info_hint_search_series" = "Search series";
+"info_hint_search_movies" = "Search movies";
+"info_hint_search_seasons" = "Search seasons";
+"info_hint_search_episode" = "Search episodes";
+"info_added_favorite" = "Added movie to the favorite list";
+"info_removed_favorite" = "Removed movie from the favorite list";
+
+"format_season" = "%@ season";
+"format_seasons" = "%@ seasons";
+"format_episode" = "%@ episode";
+"format_episodes" = "%@ episodes";
+
+"title_no_series" = "No Serie Found";
+"title_no_seasons" = "No Season Found";
+"title_no_episodes" = "No Episode Found";
+"title_reload" = "Reload";
+"title_reload_bundle" = "Reload bundle";
+"info_confirm_reload_bundle" = "Are you sure to reload this bundle?";
+"info_reload_error" = "Reloaded bundle error";
+"info_reload_success" = "Reloaded bundle succesfully";
+"title_next" = "Next";
+"title_back" = "Back";
+
+"title_english" = "English";
+"title_spanish" = "Spanish";
+"title_latino" = "Latino";
+"title_select_language" = "Select Language";
+
+"format_brightness" = "Brightness: %@";
+"format_volume" = "Volume: %@";
+"title_muted" = "Muted";
+"title_video_info" = "===Video information===";
+"title_audio_info" = "===Audio information===";
+"title_share_video" = "Share video";
+"title_ok" = "OK";
+
+"info_cast_session_end" = "Google cast session ended";
+"info_cast_session_error" = "Google cast session error";
+"info_intro_cast" ="Touch to cast video to your TV";
+"title_all_group" = "All groups";
+"title_filter_buy" = "Filter by";

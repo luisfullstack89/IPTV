@@ -1,0 +1,113 @@
+/*
+ Localizable.strings
+ Created by YPY Global
+ Copyright © 2019 YPY Global. All rights reserved.
+ */
+
+"app_name" = "IPTV Pro";
+"title_copyright" = "©IPTV Pro";
+"title_home_screen" = "IPTV Pro";
+"title_unknown" = "Desconocido";
+
+"title_tab_home" = "Hogar";
+"title_tab_bundles" = "Bundles";
+"title_tab_favorite" = "Favoritos";
+
+"title_privacy_policy" = "Política De Privacidad";
+"title_term_of_use" = "Terminos De Uso";
+"title_rate_us" = "Califíquenos Ahora";
+"title_visit_website" = "Visita Nuestro Website";
+"title_tell_a_friend" = "Compartir Aplicaciones";
+"title_contact_us" = "Contáctenos";
+
+"title_no_fav_data" = "No hay video en favorito";
+"title_no_data" = "Sin datos";
+"title_information" = "Información";
+
+//format
+"format_share_app" = "Comencemos con %@";
+"format_version" = "Version: %@";
+
+"info_add_bundle" = "Haga clic en + en la esquina superior derecha para agregar un paquete.";
+"title_add" = "Añadir";
+"title_add_bundle" = "Agregar paquete";
+"info_header_add_bundle" = "Ingrese los siguientes campos";
+"info_hint_bundle_name" = "Nombre del paquete (opcional)";
+"info_hint_bundle_uri" = "Ingrese URL (por ejemplo: http://xxx/xxx.m3u)";
+"format_empty_field" = "%@ no puede estar vacío";
+"title_bundle" = "Paquete";
+"info_invalid_url" = "URL invalida. Por favor revise de nuevo";
+"info_invalid_url_m3u" = "Formato de URL no válido. Solo apoyamos el enlace .m3u";
+"info_save_url_success" = "Paquete guardado correctamente";
+"info_save_url_error" = "Error de paquete guardado";
+"info_no_bundle" = "No se ha encontrado ningún paquete";
+"title_options" = "Opciones";
+"title_share_bundle" = "Compartir paquete";
+"title_delete_bundle" = "Eliminar paquete";
+"title_delete" = "Eliminar";
+"info_confirm_delete_bundle" = "¿Estás seguro de eliminar este paquete?";
+"info_delete_successfully" = "Borrado exitosamente";
+
+"info_lose_internet" = "Desconexión de la red. Por favor, compruebe su configuración de Internet.";
+"info_server_error" = "No podemos conectarnos al servidor ahora. Por favor, inténtelo de nuevo más tarde";
+"title_setting" = "Ajuste";
+"title_cancel" = "Cancelar";
+"title_ok" = "OK";
+"title_done" = "Hecho";
+"title_search" = "Buscar";
+
+"info_loading" = "Por favor espera ...";
+"info_error_data" = "We can not process your data. Please check again";
+
+"title_search_video" = "Buscar Video";
+"info_play_video_error" = "No podemos reproducir este video. Por favor, inténtelo de nuevo más tarde";
+"title_no_video" = "No se encontró video";
+"title_not_found" = "No encontrada";
+"title_confirm" = "Confirmar";
+"info_bundle_existed" = "Your bundle has been existed!";
+"title_featured_movies" = "Películas destacadas";
+"title_newest_movies" = "Películas más recientes";
+"title_trending_series" = "Trending Series";
+"title_genres" = "Géneros";
+"title_view_more" = "Ver más";
+"info_hint_search_series" = "Serie de búsqueda";
+"info_hint_search_movies" = "Buscar películas";
+"title_movies" = "Películas";
+"info_added_favorite" = "Película agregada a la lista de favoritos";
+"info_removed_favorite" = "Película eliminada de la lista de favoritos";
+"info_hint_search_seasons" = "Temporadas de búsqueda";
+"info_hint_search_episode" = "Buscar capitulos";
+
+"format_season" = "%@ temporada";
+"format_seasons" = "%@ temporadas";
+"format_episode" = "%@ capitulo";
+"format_episodes" = "%@ capítulos";
+
+"title_no_series" = "No se encontraron series";
+"title_no_seasons" = "No se encontraron temporadas";
+"title_no_episodes" = "No se encontraron capitulos";
+"title_reload" = "Recargar";
+"title_reload_bundle" = "Recargar paquete";
+"info_confirm_reload_bundle" = "¿Estás seguro de recargar este paquete?";
+"info_reload_error" = "Error de paquete recargado";
+"info_reload_success" = "Paquete recargado con éxito";
+"title_next" = "Próximo";
+"title_back" = "Espalda";
+
+"title_english" = "Inglés";
+"title_spanish" = "Castellano";
+"title_latino" = "Latino";
+"title_select_language" = "Seleccione el idioma";
+
+"format_brightness" = "Brillo: %@";
+"format_volume" = "Volumen: %@";
+"title_muted" = "Apagado";
+"title_video_info" = "===Información de video===";
+"title_audio_info" = "===Información de audio===";
+"title_share_video" = "Compartir video";
+
+"info_cast_session_end" = "Finalizó la sesión de Google Cast";
+"info_cast_session_error" = "Error de sesión de Google Cast";
+"info_intro_cast" ="Toca para transmitir video a tu TV";
+"title_all_group" = "Todos los grupos";
+"title_filter_buy" = "Filtrado por";

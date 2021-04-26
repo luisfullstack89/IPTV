@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="r1W-IG-66N" customClass="SeasonCell" customModule="IPTV_Pro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="B64-R5-84R">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CcL-1M-7no">
+                        <rect key="frame" x="10" y="22" width="326" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3H-jj-fCE">
+                                <rect key="frame" x="0.0" y="0.0" width="326" height="19.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THJ-FP-BEy">
+                                <rect key="frame" x="0.0" y="19.5" width="326" height="16.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="0.54000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_arrow_right_grey_24dp" translatesAutoresizingMaskIntoConstraints="NO" id="Qfo-gh-aCd">
+                        <rect key="frame" x="346" y="28" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Qfo-gh-aCd" secondAttribute="height" multiplier="1:1" id="IGN-uf-EhI"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPT-sQ-jqe">
+                        <rect key="frame" x="0.0" y="79" width="375" height="1"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.12" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="hpJ-Qg-CcE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Qfo-gh-aCd" firstAttribute="height" secondItem="B64-R5-84R" secondAttribute="height" multiplier="0.3" id="0yX-G5-wqo"/>
+                    <constraint firstAttribute="bottom" secondItem="jPT-sQ-jqe" secondAttribute="bottom" id="6bg-eB-RYL"/>
+                    <constraint firstAttribute="trailing" secondItem="Qfo-gh-aCd" secondAttribute="trailing" constant="5" id="7Os-6X-kXi"/>
+                    <constraint firstItem="Qfo-gh-aCd" firstAttribute="leading" secondItem="CcL-1M-7no" secondAttribute="trailing" constant="10" id="G9n-4H-Kqp"/>
+                    <constraint firstItem="CcL-1M-7no" firstAttribute="leading" secondItem="B64-R5-84R" secondAttribute="leading" constant="10" id="NcG-w4-k5U"/>
+                    <constraint firstItem="CcL-1M-7no" firstAttribute="centerY" secondItem="B64-R5-84R" secondAttribute="centerY" id="Sr2-JW-9dJ"/>
+                    <constraint firstAttribute="trailing" secondItem="jPT-sQ-jqe" secondAttribute="trailing" id="iE4-1B-Vy4"/>
+                    <constraint firstItem="Qfo-gh-aCd" firstAttribute="centerY" secondItem="B64-R5-84R" secondAttribute="centerY" id="mTF-Wg-36B"/>
+                    <constraint firstItem="jPT-sQ-jqe" firstAttribute="leading" secondItem="B64-R5-84R" secondAttribute="leading" id="xqK-WI-9eU"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="366" height="43"/>
+            <connections>
+                <outlet property="lblInfo" destination="THJ-FP-BEy" id="9vh-eG-aYh"/>
+                <outlet property="lblName" destination="B3H-jj-fCE" id="b8i-n5-zlC"/>
+            </connections>
+            <point key="canvasLocation" x="93" y="123"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_arrow_right_grey_24dp" width="24" height="24"/>
+    </resources>
+</document>

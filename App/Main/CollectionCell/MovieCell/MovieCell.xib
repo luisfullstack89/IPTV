@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3wY-7M-dMK" customClass="MovieCell" customModule="IPTV_Pro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="460"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="NAp-9b-HIx">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="460"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_film_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="yEg-3W-pj0">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="yEg-3W-pj0" secondAttribute="height" multiplier="3:4" id="bnB-KO-oGR"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnP-Ax-F4o">
+                        <rect key="frame" x="240" y="0.0" width="60" height="60"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="KnP-Ax-F4o" secondAttribute="height" multiplier="1:1" id="pkF-s5-6Il"/>
+                        </constraints>
+                        <state key="normal" image="ic_heart_outline_white_36dp"/>
+                        <connections>
+                            <action selector="favTap:" destination="3wY-7M-dMK" eventType="touchUpInside" id="JO9-JK-Iju"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aG0-BO-zK3" userLabel="bottomView">
+                        <rect key="frame" x="0.0" y="400" width="300" height="60"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JiC-vj-Qa5">
+                                <rect key="frame" x="5" y="14" width="290" height="32"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Db-ID-6HA" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="18"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="scrollDuration">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXG-75-jNF">
+                                        <rect key="frame" x="0.0" y="18" width="290" height="14"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="0.54000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JiC-vj-Qa5" secondAttribute="trailing" constant="5" id="8Wn-Cc-A4p"/>
+                            <constraint firstItem="JiC-vj-Qa5" firstAttribute="centerY" secondItem="aG0-BO-zK3" secondAttribute="centerY" id="Oa8-vd-lSV"/>
+                            <constraint firstItem="JiC-vj-Qa5" firstAttribute="leading" secondItem="aG0-BO-zK3" secondAttribute="leading" constant="5" id="oUw-9h-Knz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.37647058820000001" green="0.0078431372550000003" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="aG0-BO-zK3" firstAttribute="top" secondItem="yEg-3W-pj0" secondAttribute="bottom" id="7zo-vH-7Xc"/>
+                    <constraint firstAttribute="trailing" secondItem="aG0-BO-zK3" secondAttribute="trailing" id="DJe-io-snr"/>
+                    <constraint firstAttribute="trailing" secondItem="KnP-Ax-F4o" secondAttribute="trailing" id="HJb-8U-btN"/>
+                    <constraint firstItem="aG0-BO-zK3" firstAttribute="leading" secondItem="NAp-9b-HIx" secondAttribute="leading" id="IzU-R3-iMg"/>
+                    <constraint firstAttribute="bottom" secondItem="aG0-BO-zK3" secondAttribute="bottom" id="NGS-hf-shn"/>
+                    <constraint firstItem="yEg-3W-pj0" firstAttribute="leading" secondItem="NAp-9b-HIx" secondAttribute="leading" id="QRf-R3-Xe1"/>
+                    <constraint firstItem="KnP-Ax-F4o" firstAttribute="width" secondItem="NAp-9b-HIx" secondAttribute="width" multiplier="1.2:6" id="Ynt-Pg-4kS"/>
+                    <constraint firstItem="KnP-Ax-F4o" firstAttribute="top" secondItem="NAp-9b-HIx" secondAttribute="top" id="dke-q2-Dcf"/>
+                    <constraint firstAttribute="trailing" secondItem="yEg-3W-pj0" secondAttribute="trailing" id="gsd-Ut-9G5"/>
+                    <constraint firstItem="yEg-3W-pj0" firstAttribute="top" secondItem="NAp-9b-HIx" secondAttribute="top" id="xBM-Pd-SMX"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="btnFav" destination="KnP-Ax-F4o" id="FtE-4U-9r6"/>
+                <outlet property="imgMovie" destination="yEg-3W-pj0" id="ozQ-OV-7YQ"/>
+                <outlet property="lblName" destination="4Db-ID-6HA" id="js6-EW-fga"/>
+                <outlet property="lblSubInfo" destination="mXG-75-jNF" id="e00-Ac-9RK"/>
+            </connections>
+            <point key="canvasLocation" x="8.6956521739130448" y="118.52678571428571"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="4Db-ID-6HA">
+            <size key="intrinsicContentSize" width="38.5" height="18"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="ic_film_default.png" width="72" height="108"/>
+        <image name="ic_heart_outline_white_36dp" width="36" height="36"/>
+    </resources>
+</document>

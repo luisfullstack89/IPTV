@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B867E387-0D4E-4652-A8F7-44294C1EA181"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "658A92EA-F937-4D9F-8AAC-B18DB3A00EDD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App/Main/VideoPlayer/YPYVideoPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "setVideoUri(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CF8B8EA-C2C1-42F1-BDEE-A11BE1CC656E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App/Main/VideoPlayer/YPYVideoPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "getMetadata()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68E96F37-90FE-42CC-B2BC-01EAC6F9AB7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App/Main/DataManager/IPTVNetUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "273"
+            endingLineNumber = "273"
+            landmarkName = "getHeader()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E979FDD4-002E-472B-94FE-53A82586003E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App/Main/YPYLibs/Utils/DownloadUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getJsonModel(_:_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8682BC4F-E9AF-4968-8CAD-B1ED1875EEDE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App/Main/YPYLibs/Utils/DownloadUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getListJsonModel(_:_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8682BC4F-E9AF-4968-8CAD-B1ED1875EEDE - 91a854bd1ef6843f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static IPTV_Pro.DownloadUtils.getListJsonModel(Swift.String, Swift.Optional&lt;Alamofire.HTTPHeaders&gt;, IPTV_Pro.JsonModel.Type, (Swift.Optional&lt;Swift.Array&lt;IPTV_Pro.JsonModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "IPTV Pro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Downloads/newiptv_ios-master%202/App/Main/YPYLibs/Utils/DownloadUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "121">
+               </Location>
+               <Location
+                  uuid = "8682BC4F-E9AF-4968-8CAD-B1ED1875EEDE - 6614ae2b522261ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static IPTV_Pro.DownloadUtils.getListJsonModel(Swift.String, Swift.Optional&lt;Alamofire.HTTPHeaders&gt;, IPTV_Pro.JsonModel.Type, (Swift.Optional&lt;Swift.Array&lt;IPTV_Pro.JsonModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "IPTV Pro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Downloads/newiptv_ios-master%202/App/Main/YPYLibs/Utils/DownloadUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F674ABA-4C1B-4E7B-BEB1-7C6E05B09454"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App/Main/YPYLibs/Utils/DownloadUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getResultJsonModel(_:_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F674ABA-4C1B-4E7B-BEB1-7C6E05B09454 - a5511ee9fdd2366f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static IPTV_Pro.DownloadUtils.getResultJsonModel(Swift.String, Swift.Optional&lt;Alamofire.HTTPHeaders&gt;, IPTV_Pro.JsonModel.Type, (Swift.Optional&lt;IPTV_Pro.ResultModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "IPTV Pro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Downloads/newiptv_ios-master%202/App/Main/YPYLibs/Utils/DownloadUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "121">
+               </Location>
+               <Location
+                  uuid = "2F674ABA-4C1B-4E7B-BEB1-7C6E05B09454 - a17e101c7d220211"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static IPTV_Pro.DownloadUtils.getResultJsonModel(Swift.String, Swift.Optional&lt;Alamofire.HTTPHeaders&gt;, IPTV_Pro.JsonModel.Type, (Swift.Optional&lt;IPTV_Pro.ResultModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "IPTV Pro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Downloads/newiptv_ios-master%202/App/Main/YPYLibs/Utils/DownloadUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "177">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
